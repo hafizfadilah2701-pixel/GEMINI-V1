@@ -1,0 +1,36 @@
+=======================================================
+PANDUAN PENGGUNAAN ASSISTANT (DUAL MODE OCR & WINDOW)
+=======================================================
+
+1. SYARAT SEBELUM MENJALANKAN:
+-----------------------------
+- Sistem Operasi: Windows 10 atau Windows 11.
+- Sudah terinstall Google Chrome di komputer.
+- Sudah terinstall Python 3.x (disarankan dicentang "Add Python to PATH" saat install).
+
+
+2. LANGKAH PERTAMA (CUKUP SEKALI SAJA):
+--------------------------------------
+- Klik dua kali file "install_requirements.bat" untuk menginstall OpenCV, NumPy, dan Pillow secara otomatis.
+
+
+3. CARA MENJALANKAN APLIKASI:
+-----------------------------
+- Klik kanan file "cheat_assistant.exe" -> Pilih "Run as administrator" (atau klik dua kali dan pilih "Yes" pada prompt UAC).
+- Aplikasi akan aktif di background dan ikonnya akan muncul di System Tray (sudut kanan bawah taskbar).
+
+
+4. DAFTAR SHORTCUT UTAMA:
+-------------------------
+* Shift + X : Auto-Detect Soal (OpenCV) -> Otomatis deteksi kotak soal & pilihan ganda, OCR, lalu langsung tempel ke Gemini tanpa perlu interaksi mouse dan tanpa blur window.
+* Shift + Z : Manual Drag Select (OCR) -> Tarik kotak area teks secara manual di layar lalu otomatis tempel ke Gemini (tanpa layar gelap & tanpa kotak biru).
+* Shift + A : Buka Control Panel / Menu Pengaturan (atur transparansi Gemini, pin VMware, dsb.).
+* Shift + F : Kunci / Buka Kunci (Toggle Lock) klik mouse & keyboard.
+* F12       : Tombol darurat untuk membuka kunci jika mouse/keyboard terkunci.
+
+
+5. CATATAN:
+-----------
+- Pastikan file "cheat_assistant.exe" dan "auto_detect_soal.py" selalu berada di dalam satu folder yang sama.
+- Untuk menutup aplikasi, klik kanan ikon di System Tray -> Pilih "Keluar".
+
